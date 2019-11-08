@@ -11,3 +11,5 @@ Tak, czytałem te papierki; Teraz chcę zrobić tak, że:
     następnie sprawdzam średnią z kąta padania linii cosinusem od 40 do 60 percentyla - te najpowszechniejsze linie to pięciolinię, 
     a co za tym idzie, wokół mediany będą one kątowo (korzystam z równoległości - na razie biorę obrazki tylko z 1 pięciolinią)
 3) Znajduję wiersze z 5-linią na obrazku i je zaznaczam używając horizontal projection. Jak tu dojdę, to pomyślę, co dalej.
+
+A, i oczywiście na początku i tak będe utylizował zdjęcia z liniami prostymi albo jawne pdf-y - tylko tak mogę skonstruować efektywny szkielet, na którym obaj jakoś możemy pracować.
