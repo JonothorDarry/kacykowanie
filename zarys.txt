@@ -1,0 +1,6 @@
+1) Binaryzacja obrazka
+2) znalezienie kąta, pod którym są ustawione linie
+3) Obrót obrazka tak, aby linie były równoległe do krawędzi obrazka - to ułatwi poszukiwania
+4) Znalezienie wszystkich 5-linii - na razie 5-tki linii, które są długie
+5) Usunięcie linii 5-linii z obrazka, oznaczenie ich obecności w jakiejś tablicy
+Tu wchodzi twoja inwencja twórcza w zakresie rozgryzania nut - miej na uwadze, że na końcu wszystko będzie równoległe do krawędzi obrazka/zdjęcia (raczej górnej)
