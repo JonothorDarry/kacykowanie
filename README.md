@@ -13,3 +13,5 @@ Tak, czytałem te papierki; Teraz chcę zrobić tak, że:
 3) Znajduję wiersze z 5-linią na obrazku i je zaznaczam używając horizontal projection. Jak tu dojdę, to pomyślę, co dalej.
 
 OK: mam szkielet, dla pdf działa. Słaba binaryzacja, bez zmiany orientacji na razie. Teraz chcę zrobić orientację dla kilku prostych zdjęć i ulepszyć binaryzację, Staff removal mnie satysfakcjonuje, ulepszenie tego aspektu dojdzie, gdy zaczną się pięciolinie rysowane od szklanki albo złudzenia optyczne i nierówne linie. Całość masz w Poligon3.ipynb.
+
+BTW: Nie masz problemów z ziarnistymi białymi kropkami? ich raczej nie zetnę (choć może spróbuję)
