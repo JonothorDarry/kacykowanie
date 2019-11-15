@@ -12,5 +12,6 @@ Tak, czytałem te papierki; Teraz chcę zrobić tak, że:
     a co za tym idzie, wokół mediany będą one kątowo (korzystam z równoległości - na razie biorę obrazki tylko z 1 pięciolinią)
 3) Znajduję wiersze z 5-linią na obrazku i je zaznaczam używając horizontal projection. Jak tu dojdę, to pomyślę, co dalej.
 
-OK: mam szkielet, dla pdf działa. Słaba binaryzacja, bez zmiany orientacji na razie. Teraz chcę zrobić orientację dla kilku prostych zdjęć i ulepszyć binaryzację, Staff removal mnie satysfakcjonuje, ulepszenie tego aspektu dojdzie, gdy zaczną się pięciolinie rysowane od szklanki albo złudzenia optyczne i nierówne linie. Całość masz w Poligon3.ipynb
-W Piligon2 jest rozwiązanie grafowe - dużo wolniejsze, dużo lepsze. Ono czasem daje nonsensowne linie, to kwestia czułości algo i kilku hiperparametrów. Napisz na gicie, czy z parametrów linii jesteś w stanie wyciągnąć wszystkie wartościowe informacje i jak dobrze działa w ogóle z perspektywy twojego algo, ja pewnie zajmę się już głównie binaryzacją i rotacją
+OK: mam szkielet, dla pdf działa. Słaba binaryzacja, bez zmiany orientacji na razie. Teraz chcę zrobić orientację dla kilku prostych zdjęć i ulepszyć binaryzację, Staff removal mnie satysfakcjonuje, ulepszenie tego aspektu dojdzie, gdy zaczną się pięciolinie rysowane od szklanki albo złudzenia optyczne i nierówne linie. Całość masz w Poligon3.ipynb.
+
+W Piligon2 jest rozwiązanie grafowe - dużo wolniejsze, dużo lepsze. Ono czasem daje nonsensowne linie, to kwestia czułości algo i kilku hiperparametrów. Napisz na gicie, czy z parametrów linii jesteś w stanie wyciągnąć wszystkie wartościowe informacje i jak dobrze działa w ogóle z perspektywy twojego algo, ja pewnie zajmę się już głównie binaryzacją i rotacją jeśli to działa
