@@ -15,3 +15,5 @@ Tak, czytałem te papierki; Teraz chcę zrobić tak, że:
 OK: mam szkielet, dla pdf działa. Słaba binaryzacja, bez zmiany orientacji na razie. Teraz chcę zrobić orientację dla kilku prostych zdjęć i ulepszyć binaryzację, Staff removal mnie satysfakcjonuje, ulepszenie tego aspektu dojdzie, gdy zaczną się pięciolinie rysowane od szklanki albo złudzenia optyczne i nierówne linie. Całość masz w Poligon3.ipynb.
 
 W Piligon2 jest rozwiązanie grafowe - dużo wolniejsze, dużo lepsze. Ono czasem daje nonsensowne linie, to kwestia czułości algo i kilku hiperparametrów. Napisz na gicie, czy z parametrów linii jesteś w stanie wyciągnąć wszystkie wartościowe informacje i jak dobrze działa w ogóle z perspektywy twojego algo, ja pewnie zajmę się już głównie binaryzacją i rotacją jeśli to działa
+
+Dodałem issue z komentarzem do algo i tam bym proponował przenieść dyskusję.
