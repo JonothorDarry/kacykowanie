@@ -16,6 +16,8 @@
 	\author{Sebastian Michoń 136770, Marcin Zatorski 136834}
 	\date{\vspace{-0ex}}
 	\maketitle
+	\section{Wstęp}
+		Naszym zadaniem była detekcja nut. Podzieliliśmy ten problem na dwie części: pierwsza to wstępne przetwarzanie, detekcja i usunięcie pięciolinii, a druga to detekcja i klasyfikacja nut.
 	\section{Technika wykonania algorytmu}
 	\begin {enumerate}
 		\item{Wpierw obrazek poddany zostaje procesowi adaptatywnej binaryzacji: korzystam z gaussowego adaptatywnego thresholdingu, biorę ok. 135 sąsiednich punktów. Obrazek oryginalny jest kolejno poddany 
@@ -45,12 +47,12 @@
 			\item{Po zakończeniu BFS-a znajduję Najdłuższą ścieżkę z lewej i z prawej - złożenie tych ścieżek daje mi ścieżkę idącą gdzieś przez obrazek}
 			\item{Jeśli długość linii jest większa niż jakaś uzależniona od rozmiaru obrazka wartość: mówię, że to może być fragment pięciolinii. Idę po wszystkich punktach tej ścieżki, znajdując w procesie
 			jej grubość jako średnią ilość punktów białych w górę/dół od punktu ścieżki. Następnie znowu przechodzę ścieżkę: Jeśli liczba punktów w góre/dół od punktu jest mniejsza równa sufitowi grubości, 
-			punkty te zostają skąpnae w ciemności; jeśli jest wręcz przeciwnie, zakładam, że to są nuty i ich nie dotykam.}
+			punkty te zostają skąpane w ciemności; jeśli jest wręcz przeciwnie, zakładam, że to są nuty i ich nie dotykam.}
 			\item{Procedurę powtarzam do przejścia w pionie całego obrazka}
 		\end {enumerate}
 		\item{Następnie poszukuję pięciolinii wśród wszystkich linii jakie znalazłem:}
 		\begin{enumerate}
-			\item{Dla każdej linii znajduję średi punkt y-kowy, w którym ona się znajduje}
+			\item{Dla każdej linii znajduję średni punkt y-kowy, w którym ona się znajduje}
 			\item{Dla całego zbioru linii, zapuszczam strukturę zbiorów rozłącznych; łączenie 2 punktów sąsiednich po mean(y) zachodzi, jeśli są one odpowiednio blisko siebie}
 			\item{Jeśli jakiś zbiór ma nie mniej niż 3 elementy, traktuje go jako pięciolinię}
 		\end{enumerate}
@@ -198,7 +200,32 @@
 		\caption{Poszukiwanie pięciolinii}
 		\label{fig:5l}
 	\end{figure}
-%...
+	
+	\clearpage
+	\section{Detekcja nut}
+		Kolejnym krokiem jest detekcja nut na przetworzonym obrazku.
+		\begin{enumerate}
+			\item Najpierw liczę rozmiary pięciolinii. Wysokość, początek i koniec są wyliczane na podstawie linii zwróconych w poprzednim kroku - biorę medianę z tych wymiarów.
+			\item Kolejnym krokiem jest oczyszczenie pięciolinii. Jeśli ich długość lub wysokość odbiega za bardzo od mediany to zmieniam ich rozmiary.
+			\item Następnie klasyfikuję klucze będące na początku pięciolinii. Robię to patrząc na ilość bieli na początku - więcej to klucz wiolinowy, mniej - klucz basowy.
+			\item Trzecim krokiem jest detekcja główek nut:
+				\begin{enumerate}
+					\item Najpierw zmieniam rozmiar wzorców zależnie od wysokości pięciolinii.
+					\item Następnie znajduję dopasowania wzorca (używam znormalizowanej różnicy kwadratów). Do zwróconych wartości stosuję progowanie. To co poniżej progu jest nutą.
+					\item Jeśli znalazłem w małym obszarze wiele dopasowań to biorę to które ma najmniejszą wartość.
+					\item Powtarzam to dla trzech wzorców - główki wypełnionej, półnuty oraz całej nuty. Jeśli dopasowania się nakładają to zostawiam tylko pierwsze dopasowanie.
+				\end{enumerate}
+			\item Teraz odfiltrowuję znalezione główki nut - jeśli są zbyt daleko od końców pięciolinii to je usuwam.
+			\item Znajduję wysokość nuty - najpierw obliczam gdzie na pięciolinii nuta leży. Biorę środek nuty - obliczony jako środek geometryczny wzorca + lewy górny róg. Porównuję to do współrzędnej y dolnej linii - obliczonej jako średnia y początku i końca. Na podstawie obliczonego położenia nuty i klucza danej pięciolinii określam wysokość nuty.
+			\item Kolejnym etapem jest określenie długości nuty
+				\begin{enumerate}
+					\item Najpierw określam czy główka nuty jest wypełniona czy nie. Robię to patrząc na średni kolor środka nuty na oryginalnym obrazku.
+					\item Kolejnym krokiem jest znalezienie ogonka nuty. W tym celu patrzę na projekcję pionową poniżej i powyżej nuty i określam czy jest tam odpowiednio wysokie maksimum. Jeśli jest to próbuję znaleźć koniec laseczki przechodząc po białych pikselach, pionowo, tam gdzie znalazłem maksimum. Czasem część laseczki jest usunięta - algorytm może ominąć 3 czarne piksele.
+					\item Jeśli nuta była pusta w środku i znalazłem ogonek nuty to półnuta, jeśli nie to cała nuta. Jeśli główka była wypełniona i nie znalazłem ogonka to taką nutę usuwam.
+					\item Następnie określam czy dana nuta to ósemka. Najpierw używam projekcji "po skosie" - na prawo od nuty i odpowiednio na dół lub do góry. Jeśli jest tam odpowiednio wysokie maksimum to jest to flaga ósemki. Jeśli tak nie jest to sprawdzam czy na lewo lub na prawo od końca ogonka nuty jest odpowiednio dużo białego - to jest daszek ósemki.
+				\end{enumerate}
+			\item Ostatni krok to narysowanie prostokątów otaczających nuty oraz naniesienie informacji o wysokości nuty.
+		\end{enumerate}
 
 
 
