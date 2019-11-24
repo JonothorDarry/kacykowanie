@@ -55,6 +55,7 @@
 			\item{Dla każdej linii znajduję średni punkt y-kowy, w którym ona się znajduje}
 			\item{Dla całego zbioru linii, zapuszczam strukturę zbiorów rozłącznych; łączenie 2 punktów sąsiednich po mean(y) zachodzi, jeśli są one odpowiednio blisko siebie}
 			\item{Jeśli jakiś zbiór ma nie mniej niż 3 elementy, traktuje go jako pięciolinię}
+			\item{Przechodzę zbiór linii dwoma iteratorami, znajduję największy podzbiór zbioru wykrytych pięciolinii taki, że 3*len(najniżsa 5-linia)>len(najwyższa 5-linia). Usuwam wszystkie 5-linie spoza tego zbioru}
 		\end{enumerate}
 		
 	\end{enumerate}
@@ -261,9 +262,375 @@
 		\end{figure}
 	
 	\section{Wyniki}
-	
+		\begin{enumerate}
+			\item{Zdjęcia łatwe}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj0.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj1.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj2.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj3.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj4.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj5.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj6.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj7.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj8.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj9.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Proste zdjęcia 1}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj10.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj11.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj12.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj13.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj14.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj15.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj16.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj17.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj18.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj19.png}
+				\end{subfigure}
+				\label{fig:nuuty3}
+				\caption{Proste zdjęcia 2}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj20.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj21.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj22.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj23.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj24.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj25.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj26.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj27.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj28.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj29.png}
+				\end{subfigure}
+				\label{fig:nuuty3}
+				\caption{Proste zdjęcia 3}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj30.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj31.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj32.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj33.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj34.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Eazy/Zdj35.png}
+				\end{subfigure}
+				\label{fig:nuuty3}
+				\caption{Proste zdjęcia 4}
+			\end{figure}
+			\clearpage
+			\item{Zdjęcia średnie}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj0.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj1.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj2.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj3.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj4.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj5.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj6.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj7.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj8.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj9.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Średnie zdjęcia 1}
+			\end{figure}
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj10.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj11.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj12.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj13.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj14.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj15.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj16.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj17.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj18.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj19.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Średnie zdjęcia 2}
+			\end{figure}
+		
+			\begin{figure}[h!]
+				\centering
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj20.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj21.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj22.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj23.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj24.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj25.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Medium/Zdj26.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Średnie zdjęcia 3}
+			\end{figure}
+			
+			\clearpage
+			\item{Zdjęcia trudne}
+			\begin{figure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj0.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj1.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj2.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj3.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj4.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj5.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj6.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj7.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj8.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj9.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Trudne zdjęcia 1}
+			\end{figure}
+		
+			\begin{figure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj10.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj11.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj12.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj13.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj14.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj15.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj16.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj17.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj18.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj19.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Trudne zdjęcia 2}
+			\end{figure}
+		
+			\begin{figure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj20.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj21.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj22.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj23.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj24.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj25.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj26.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj27.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj28.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj29.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Trudne zdjęcia 3}
+			\end{figure}
+		
+			\begin{figure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj30.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj31.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj32.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj33.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj34.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj35.png}
+				\end{subfigure}
+				\begin{subfigure}[b]{0.48\linewidth}
+					\includegraphics[width=\linewidth]{Hard/Zdj36.png}
+				\end{subfigure}
+				\label{fig:nuuty2}
+				\caption{Trudne zdjęcia 4}
+			\end{figure}
+		\end{enumerate}
+	\clearpage
 	\section{Posumowanie}
 		Detekcja nut najgorzej radzi sobie z nutami pisanymi odręcznie. Dopasowanie wzorców nie sprawdza się tu najlepiej - symbole są różne i mniej stałe. Nawet jeśli nuta zostanie wykryta to jest długość jest źle określana - program interpretuje nie do końca zamalowaną główkę jako otwartą. Pewnym rozwiązaniem mogło by być dodanie dodatkowych wzorców oraz zastosowanie dodatkowych przekształceń obrazu (morfologia, wyrównanie histogramu). Znajdowanie wysokości nut również nie działa idealnie jeśli linie nie są dokładnie równoległe do krawędzi obrazka lub nie są idealnie określone. Zamiast średniej można by zastosować liniową interpolację między współrzędnymi. Wykrywanie nut nie działa idealnie przy przekształceniu perspektywicznym - wzorce mają jeden rozmiar dla całej pięciolinii. Można by spróbować podzielić kartkę na pojedyncze pięciolinie i stosować wzorce na tych pięcioliniach. Problematyczne są także przypadki gdy kartka zostanie obrócona tak, że klucze są po prawej stronie - przy rotacji nie jest uwzględnione położenie kluczy.
+		\newline
+		\newline
+		Część związana z binaryzacją nie opiera się na znalezieniu kartki - co generuje 1. problem - nie zawsze znajduję linie tylko na kartce. Generuje to też problem przy rotacji, która często wyłapuje jakieś dziwne linie poza kartką i determinuje położenie pięciolinii właśnie przez pryzmat tychże. Dalej, znajdowanie linii tworzących 5-linię BFS-em jest bardzo odporne na niewykrycie w miarę poziomej linii, co pociąga za sobą częste znajdowanie linii poza kartką na zbinaryzowanym obrazku. W ostatnim moim etapie zachodzi próba wykrycia, które z linii należą do jednej pięciolinii, a tkaże zrównoleglenie linii, które wg mnie należą do jednej pięciolinii. Ta metoda została nastawiona na usuwanie relatywnie małej ilości linii, co sprawia, że czasem linie spoza kartki nadal zostają na obrazie; poza tym, pięciolinia nie zawsze zostaje dobrze odkryta, czasem np. w dwóch częściach, szczególnie przy nieregularnych odległościach między liniami 5-linii. Ulepszeniem mojego algorymu mogłaby być próba detekcji kartki albo lepsze łączenie linii w 1 pięciolinii
 
 \end{document}
 

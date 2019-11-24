@@ -1,72 +1,386 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.19)  24 NOV 2019 03:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.4)  24 NOV 2019 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Sprawko_origins.tex
 (./Sprawko_origins.tex
-LaTeX2e <2018-04-01> patch level 5
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen105
 \captionmargin@=\dimen106
 \captionwidth=\dimen107
@@ -75,13 +389,12 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@caption@flags=\count88
-\c@ContinuedFloat=\count89
+\c@ContinuedFloat=\count87
 )
-\c@subfigure=\count90
-\c@subtable=\count91
+\c@subfigure=\count88
+\c@subtable=\count89
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -116,10 +429,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -133,25 +446,25 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/svgnam.def
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count92
-\Gm@cntv=\count93
-\c@Gm@tempcnt=\count94
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
 \Gm@bindingoffset=\dimen112
 \Gm@wd@mp=\dimen113
 \Gm@odd@mp=\dimen114
@@ -162,14 +475,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks17
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -186,7 +499,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -208,66 +521,66 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen120
-\Hy@linkcounter=\count95
-\Hy@pagecounter=\count96
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count97
+\Hy@SavedSpaceFactor=\count95
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count98
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count96
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5141.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen121
-\Fld@menulength=\count99
+\Fld@menulength=\count97
 \Field@Width=\dimen122
 \Fld@charsize=\dimen123
-Package hyperref Info: Hyper figures OFF on input line 6396.
-Package hyperref Info: Link nesting OFF on input line 6401.
-Package hyperref Info: Hyper index ON on input line 6404.
-Package hyperref Info: backreferencing OFF on input line 6411.
-Package hyperref Info: Link coloring ON on input line 6414.
-Package hyperref Info: Link coloring with OCG OFF on input line 6421.
-Package hyperref Info: PDF/A mode OFF on input line 6426.
-LaTeX Info: Redefining \ref on input line 6466.
-LaTeX Info: Redefining \pageref on input line 6470.
-\Hy@abspage=\count100
-\c@Item=\count101
-\c@Hfootnote=\count102
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
-\Fld@listcount=\count103
-\c@bookmark@seq@number=\count104
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -277,6 +590,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./Sprawko_origins.aux
 
 LaTeX Warning: Label `fig:bfs1' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty3' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty3' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
+
+
+LaTeX Warning: Label `fig:nuuty2' multiply defined.
 
 )
 \openout1 = `Sprawko_origins.aux'.
@@ -296,26 +636,26 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 14.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count103
 \scratchdimen=\dimen124
 \scratchbox=\box26
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count104
+\nofMParguments=\count105
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count108
+\MPscratchCnt=\count106
 \MPscratchDim=\dimen125
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -325,7 +665,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -370,13 +710,13 @@ Package caption Info: End \AtBeginDocument code.
 
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring ON on input line 14.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count111
+\c@section@level=\count109
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
@@ -388,24 +728,24 @@ LaTeX Info: Redefining \nameref on input line 14.
 
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 19.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 19.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 19.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 19.
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -428,216 +768,221 @@ funkcji warpAffine
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX w
-arning (ext4): destination with the same identifier (name{page.}) has been alre
-ady used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (18.32788pt too wide) in paragraph at lines 58--59
+\T1/lmr/m/n/12 wykry-tych pi¦-ci-olinii taki, »e 3*len(najni»sa 5-linia)>len(na
+jwy»sza 5-linia). Usuwam
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 	\newpage
+l.63 	\newpage
                [2]
-<zdj/Bin0.png, id=57, 1300.86pt x 1300.86pt>
+<zdj/Bin0.png, id=58, 1300.86pt x 1300.86pt>
 File: zdj/Bin0.png Graphic file (type png)
 <use zdj/Bin0.png>
-Package pdftex.def Info: zdj/Bin0.png  used on input line 66.
+Package pdftex.def Info: zdj/Bin0.png  used on input line 67.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/Bin1.png, id=59, 1300.86pt x 1300.86pt>
+<zdj/Bin1.png, id=60, 1300.86pt x 1300.86pt>
 File: zdj/Bin1.png Graphic file (type png)
 <use zdj/Bin1.png>
-Package pdftex.def Info: zdj/Bin1.png  used on input line 70.
+Package pdftex.def Info: zdj/Bin1.png  used on input line 71.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/Bin2.png, id=60, 1300.86pt x 1300.86pt>
+<zdj/Bin2.png, id=61, 1300.86pt x 1300.86pt>
 File: zdj/Bin2.png Graphic file (type png)
 <use zdj/Bin2.png>
-Package pdftex.def Info: zdj/Bin2.png  used on input line 74.
+Package pdftex.def Info: zdj/Bin2.png  used on input line 75.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/Rot0.png, id=61, 1300.86pt x 1300.86pt>
+<zdj/Rot0.png, id=62, 1300.86pt x 1300.86pt>
 File: zdj/Rot0.png Graphic file (type png)
 <use zdj/Rot0.png>
-Package pdftex.def Info: zdj/Rot0.png  used on input line 84.
+Package pdftex.def Info: zdj/Rot0.png  used on input line 85.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
-<zdj/Rot1.png, id=62, 1300.86pt x 1300.86pt>
+<zdj/Rot1.png, id=63, 1300.86pt x 1300.86pt>
 File: zdj/Rot1.png Graphic file (type png)
 <use zdj/Rot1.png>
-Package pdftex.def Info: zdj/Rot1.png  used on input line 88.
+Package pdftex.def Info: zdj/Rot1.png  used on input line 89.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
-<zdj/BFS0.png, id=63, 1300.86pt x 1300.86pt>
+<zdj/BFS0.png, id=64, 1300.86pt x 1300.86pt>
 File: zdj/BFS0.png Graphic file (type png)
 <use zdj/BFS0.png>
-Package pdftex.def Info: zdj/BFS0.png  used on input line 97.
+Package pdftex.def Info: zdj/BFS0.png  used on input line 98.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS1.png, id=64, 1300.86pt x 1300.86pt>
+<zdj/BFS1.png, id=65, 1300.86pt x 1300.86pt>
 File: zdj/BFS1.png Graphic file (type png)
 <use zdj/BFS1.png>
-Package pdftex.def Info: zdj/BFS1.png  used on input line 100.
+Package pdftex.def Info: zdj/BFS1.png  used on input line 101.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS2.png, id=65, 1300.86pt x 1300.86pt>
+<zdj/BFS2.png, id=66, 1300.86pt x 1300.86pt>
 File: zdj/BFS2.png Graphic file (type png)
 <use zdj/BFS2.png>
-Package pdftex.def Info: zdj/BFS2.png  used on input line 103.
+Package pdftex.def Info: zdj/BFS2.png  used on input line 104.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS3.png, id=66, 1300.86pt x 1300.86pt>
+<zdj/BFS3.png, id=67, 1300.86pt x 1300.86pt>
 File: zdj/BFS3.png Graphic file (type png)
 <use zdj/BFS3.png>
-Package pdftex.def Info: zdj/BFS3.png  used on input line 106.
+Package pdftex.def Info: zdj/BFS3.png  used on input line 107.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS4.png, id=67, 1300.86pt x 1300.86pt>
+<zdj/BFS4.png, id=68, 1300.86pt x 1300.86pt>
 File: zdj/BFS4.png Graphic file (type png)
 <use zdj/BFS4.png>
-Package pdftex.def Info: zdj/BFS4.png  used on input line 109.
+Package pdftex.def Info: zdj/BFS4.png  used on input line 110.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS5.png, id=68, 1300.86pt x 1300.86pt>
+<zdj/BFS5.png, id=69, 1300.86pt x 1300.86pt>
 File: zdj/BFS5.png Graphic file (type png)
 <use zdj/BFS5.png>
-Package pdftex.def Info: zdj/BFS5.png  used on input line 112.
+Package pdftex.def Info: zdj/BFS5.png  used on input line 113.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS6.png, id=69, 1300.86pt x 1300.86pt>
+<zdj/BFS6.png, id=70, 1300.86pt x 1300.86pt>
 File: zdj/BFS6.png Graphic file (type png)
 <use zdj/BFS6.png>
-Package pdftex.def Info: zdj/BFS6.png  used on input line 115.
+Package pdftex.def Info: zdj/BFS6.png  used on input line 116.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS7.png, id=70, 1300.86pt x 1300.86pt>
+<zdj/BFS7.png, id=71, 1300.86pt x 1300.86pt>
 File: zdj/BFS7.png Graphic file (type png)
 <use zdj/BFS7.png>
-Package pdftex.def Info: zdj/BFS7.png  used on input line 118.
+Package pdftex.def Info: zdj/BFS7.png  used on input line 119.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS8.png, id=71, 1300.86pt x 1300.86pt>
+<zdj/BFS8.png, id=72, 1300.86pt x 1300.86pt>
 File: zdj/BFS8.png Graphic file (type png)
 <use zdj/BFS8.png>
-Package pdftex.def Info: zdj/BFS8.png  used on input line 121.
+Package pdftex.def Info: zdj/BFS8.png  used on input line 122.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS9.png, id=72, 1300.86pt x 1300.86pt>
+<zdj/BFS9.png, id=73, 1300.86pt x 1300.86pt>
 File: zdj/BFS9.png Graphic file (type png)
 <use zdj/BFS9.png>
-Package pdftex.def Info: zdj/BFS9.png  used on input line 124.
+Package pdftex.def Info: zdj/BFS9.png  used on input line 125.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS10.png, id=73, 1300.86pt x 1300.86pt>
+<zdj/BFS10.png, id=74, 1300.86pt x 1300.86pt>
 File: zdj/BFS10.png Graphic file (type png)
 <use zdj/BFS10.png>
-Package pdftex.def Info: zdj/BFS10.png  used on input line 127.
+Package pdftex.def Info: zdj/BFS10.png  used on input line 128.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS11.png, id=74, 1300.86pt x 1300.86pt>
+<zdj/BFS11.png, id=75, 1300.86pt x 1300.86pt>
 File: zdj/BFS11.png Graphic file (type png)
 <use zdj/BFS11.png>
-Package pdftex.def Info: zdj/BFS11.png  used on input line 130.
+Package pdftex.def Info: zdj/BFS11.png  used on input line 131.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
 
-Underfull \hbox (badness 2126) in paragraph at lines 96--132
+Underfull \hbox (badness 2126) in paragraph at lines 97--133
 [][] [] []
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 96--132
+Underfull \hbox (badness 2126) in paragraph at lines 97--133
 [] [] []
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 96--132
+Underfull \hbox (badness 2126) in paragraph at lines 97--133
 [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<zdj/BFS12.png, id=75, 1300.86pt x 1300.86pt>
+<zdj/BFS12.png, id=76, 1300.86pt x 1300.86pt>
 File: zdj/BFS12.png Graphic file (type png)
 <use zdj/BFS12.png>
-Package pdftex.def Info: zdj/BFS12.png  used on input line 138.
+Package pdftex.def Info: zdj/BFS12.png  used on input line 139.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS13.png, id=76, 1300.86pt x 1300.86pt>
+<zdj/BFS13.png, id=77, 1300.86pt x 1300.86pt>
 File: zdj/BFS13.png Graphic file (type png)
 <use zdj/BFS13.png>
-Package pdftex.def Info: zdj/BFS13.png  used on input line 141.
+Package pdftex.def Info: zdj/BFS13.png  used on input line 142.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS14.png, id=77, 1300.86pt x 1300.86pt>
+<zdj/BFS14.png, id=78, 1300.86pt x 1300.86pt>
 File: zdj/BFS14.png Graphic file (type png)
 <use zdj/BFS14.png>
-Package pdftex.def Info: zdj/BFS14.png  used on input line 144.
+Package pdftex.def Info: zdj/BFS14.png  used on input line 145.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS15.png, id=78, 1300.86pt x 1300.86pt>
+<zdj/BFS15.png, id=79, 1300.86pt x 1300.86pt>
 File: zdj/BFS15.png Graphic file (type png)
 <use zdj/BFS15.png>
-Package pdftex.def Info: zdj/BFS15.png  used on input line 147.
+Package pdftex.def Info: zdj/BFS15.png  used on input line 148.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS16.png, id=79, 1300.86pt x 1300.86pt>
+<zdj/BFS16.png, id=80, 1300.86pt x 1300.86pt>
 File: zdj/BFS16.png Graphic file (type png)
 <use zdj/BFS16.png>
-Package pdftex.def Info: zdj/BFS16.png  used on input line 150.
+Package pdftex.def Info: zdj/BFS16.png  used on input line 151.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS17.png, id=80, 1300.86pt x 1300.86pt>
+<zdj/BFS17.png, id=81, 1300.86pt x 1300.86pt>
 File: zdj/BFS17.png Graphic file (type png)
 <use zdj/BFS17.png>
-Package pdftex.def Info: zdj/BFS17.png  used on input line 153.
+Package pdftex.def Info: zdj/BFS17.png  used on input line 154.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS18.png, id=81, 1300.86pt x 1300.86pt>
+<zdj/BFS18.png, id=82, 1300.86pt x 1300.86pt>
 File: zdj/BFS18.png Graphic file (type png)
 <use zdj/BFS18.png>
-Package pdftex.def Info: zdj/BFS18.png  used on input line 156.
+Package pdftex.def Info: zdj/BFS18.png  used on input line 157.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS19.png, id=82, 1300.86pt x 1300.86pt>
+<zdj/BFS19.png, id=83, 1300.86pt x 1300.86pt>
 File: zdj/BFS19.png Graphic file (type png)
 <use zdj/BFS19.png>
-Package pdftex.def Info: zdj/BFS19.png  used on input line 159.
+Package pdftex.def Info: zdj/BFS19.png  used on input line 160.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS20.png, id=83, 1300.86pt x 1300.86pt>
+<zdj/BFS20.png, id=84, 1300.86pt x 1300.86pt>
 File: zdj/BFS20.png Graphic file (type png)
 <use zdj/BFS20.png>
-Package pdftex.def Info: zdj/BFS20.png  used on input line 162.
+Package pdftex.def Info: zdj/BFS20.png  used on input line 163.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS21.png, id=84, 1300.86pt x 1300.86pt>
+<zdj/BFS21.png, id=85, 1300.86pt x 1300.86pt>
 File: zdj/BFS21.png Graphic file (type png)
 <use zdj/BFS21.png>
-Package pdftex.def Info: zdj/BFS21.png  used on input line 165.
+Package pdftex.def Info: zdj/BFS21.png  used on input line 166.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS22.png, id=85, 1300.86pt x 1300.86pt>
+<zdj/BFS22.png, id=86, 1300.86pt x 1300.86pt>
 File: zdj/BFS22.png Graphic file (type png)
 <use zdj/BFS22.png>
-Package pdftex.def Info: zdj/BFS22.png  used on input line 168.
+Package pdftex.def Info: zdj/BFS22.png  used on input line 169.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
-<zdj/BFS23.png, id=86, 1300.86pt x 1300.86pt>
+<zdj/BFS23.png, id=87, 1300.86pt x 1300.86pt>
 File: zdj/BFS23.png Graphic file (type png)
 <use zdj/BFS23.png>
-Package pdftex.def Info: zdj/BFS23.png  used on input line 171.
+Package pdftex.def Info: zdj/BFS23.png  used on input line 172.
 (pdftex.def)             Requested size: 149.57835pt x 149.56598pt.
 
-Underfull \hbox (badness 2126) in paragraph at lines 137--173
+Underfull \hbox (badness 2126) in paragraph at lines 138--174
 [][] [] []
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 137--173
+Underfull \hbox (badness 2126) in paragraph at lines 138--174
 [] [] []
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 137--173
+Underfull \hbox (badness 2126) in paragraph at lines 138--174
 [] [] []
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<zdj/BFSFinale0.png, id=87, 1300.86pt x 1300.86pt>
+<zdj/BFSFinale0.png, id=88, 1300.86pt x 1300.86pt>
 File: zdj/BFSFinale0.png Graphic file (type png)
 <use zdj/BFSFinale0.png>
-Package pdftex.def Info: zdj/BFSFinale0.png  used on input line 180.
+Package pdftex.def Info: zdj/BFSFinale0.png  used on input line 181.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
-<zdj/BFSFinale1.png, id=88, 1300.86pt x 1300.86pt>
+<zdj/BFSFinale1.png, id=89, 1300.86pt x 1300.86pt>
 File: zdj/BFSFinale1.png Graphic file (type png)
 <use zdj/BFSFinale1.png>
-Package pdftex.def Info: zdj/BFSFinale1.png  used on input line 184.
+Package pdftex.def Info: zdj/BFSFinale1.png  used on input line 185.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<zdj/5l0.png, id=89, 1300.86pt x 1300.86pt>
+<zdj/5l0.png, id=90, 1300.86pt x 1300.86pt>
 File: zdj/5l0.png Graphic file (type png)
 <use zdj/5l0.png>
-Package pdftex.def Info: zdj/5l0.png  used on input line 194.
+Package pdftex.def Info: zdj/5l0.png  used on input line 195.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
-<zdj/5l1.png, id=90, 1300.86pt x 1300.86pt>
+<zdj/5l1.png, id=91, 1300.86pt x 1300.86pt>
 File: zdj/5l1.png Graphic file (type png)
 <use zdj/5l1.png>
-Package pdftex.def Info: zdj/5l1.png  used on input line 198.
+Package pdftex.def Info: zdj/5l1.png  used on input line 199.
 (pdftex.def)             Requested size: 224.36041pt x 224.35889pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -646,13 +991,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 	\clearpage
+l.206 	\clearpage
                   [3 <./zdj/Bin0.png> <./zdj/Bin1.png> <./zdj/Bin2.png> <./zdj/
 Rot0.png> <./zdj/Rot1.png>]pdfTeX warning (ext4): destination with the same ide
 ntifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 	\clearpage
+l.206 	\clearpage
                   [4 <./zdj/BFS0.png> <./zdj/BFS1.png> <./zdj/BFS2.png> <./zdj/
 BFS3.png> <./zdj/BFS4.png> <./zdj/BFS5.png> <./zdj/BFS6.png> <./zdj/BFS7.png> <
 ./zdj/BFS8.png> <./zdj/BFS9.png> <./zdj/BFS10.png> <./zdj/BFS11.png>]pdfTeX war
@@ -660,7 +1005,7 @@ ning (ext4): destination with the same identifier (name{page.}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 	\clearpage
+l.206 	\clearpage
                   [5 <./zdj/BFS12.png> <./zdj/BFS13.png> <./zdj/BFS14.png> <./z
 dj/BFS15.png> <./zdj/BFS16.png> <./zdj/BFS17.png> <./zdj/BFS18.png> <./zdj/BFS1
 9.png> <./zdj/BFS20.png> <./zdj/BFS21.png> <./zdj/BFS22.png> <./zdj/BFS23.png>]
@@ -668,109 +1013,812 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 	\clearpage
+l.206 	\clearpage
                   [6 <./zdj/BFSFinale0.png> <./zdj/BFSFinale1.png> <./zdj/5l0.p
 ng> <./zdj/5l1.png>]
-Overfull \hbox (31.4902pt too wide) in paragraph at lines 215--216
+Overfull \hbox (31.4902pt too wide) in paragraph at lines 216--217
 []\T1/lmr/m/n/12 Nast¦pnie zna-j-duj¦ dopa-sowa-nia wzorca (u»y-wam znor-mal-i-
 zowanej ró»nicy kwadratów).
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 227.
+(Font)              <12> on input line 228.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 227.
+(Font)              <8> on input line 228.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 227.
+(Font)              <6> on input line 228.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.230 			\item N
+l.231 			\item N
                 a koÅ„cu wyÅ›wietlam na obrazku prostokÄ…ty ograniczajÄ…ce n...
 [7
 
 ]
-<zdj/step_1.jpg, id=164, 1149.29375pt x 1525.7pt>
+<zdj/step_1.jpg, id=165, 1149.29375pt x 1525.7pt>
 File: zdj/step_1.jpg Graphic file (type jpg)
 <use zdj/step_1.jpg>
-Package pdftex.def Info: zdj/step_1.jpg  used on input line 236.
+Package pdftex.def Info: zdj/step_1.jpg  used on input line 237.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
-<zdj/step_2.jpg, id=165, 1149.29375pt x 1525.7pt>
+<zdj/step_2.jpg, id=166, 1149.29375pt x 1525.7pt>
 File: zdj/step_2.jpg Graphic file (type jpg)
 <use zdj/step_2.jpg>
-Package pdftex.def Info: zdj/step_2.jpg  used on input line 240.
+Package pdftex.def Info: zdj/step_2.jpg  used on input line 241.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
-<zdj/step_3.jpg, id=166, 1149.29375pt x 1525.7pt>
+<zdj/step_3.jpg, id=167, 1149.29375pt x 1525.7pt>
 File: zdj/step_3.jpg Graphic file (type jpg)
 <use zdj/step_3.jpg>
-Package pdftex.def Info: zdj/step_3.jpg  used on input line 244.
+Package pdftex.def Info: zdj/step_3.jpg  used on input line 245.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
-<zdj/step_4.jpg, id=167, 1149.29375pt x 1525.7pt>
+<zdj/step_4.jpg, id=168, 1149.29375pt x 1525.7pt>
 File: zdj/step_4.jpg Graphic file (type jpg)
 <use zdj/step_4.jpg>
-Package pdftex.def Info: zdj/step_4.jpg  used on input line 248.
+Package pdftex.def Info: zdj/step_4.jpg  used on input line 249.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
-<zdj/step_5.jpg, id=168, 1149.29375pt x 1525.7pt>
+<zdj/step_5.jpg, id=169, 1149.29375pt x 1525.7pt>
 File: zdj/step_5.jpg Graphic file (type jpg)
 <use zdj/step_5.jpg>
-Package pdftex.def Info: zdj/step_5.jpg  used on input line 252.
+Package pdftex.def Info: zdj/step_5.jpg  used on input line 253.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
-<zdj/step_6.jpg, id=169, 1149.29375pt x 1525.7pt>
+<zdj/step_6.jpg, id=170, 1149.29375pt x 1525.7pt>
 File: zdj/step_6.jpg Graphic file (type jpg)
 <use zdj/step_6.jpg>
-Package pdftex.def Info: zdj/step_6.jpg  used on input line 256.
+Package pdftex.def Info: zdj/step_6.jpg  used on input line 257.
 (pdftex.def)             Requested size: 149.57835pt x 198.55748pt.
+<Eazy/Zdj0.png, id=171, 1263.72125pt x 808.01875pt>
+File: Eazy/Zdj0.png Graphic file (type png)
+<use Eazy/Zdj0.png>
+Package pdftex.def Info: Eazy/Zdj0.png  used on input line 270.
+(pdftex.def)             Requested size: 224.36041pt x 143.45207pt.
+<Eazy/Zdj1.png, id=172, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj1.png Graphic file (type png)
+<use Eazy/Zdj1.png>
+Package pdftex.def Info: Eazy/Zdj1.png  used on input line 273.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj2.png, id=173, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj2.png Graphic file (type png)
+<use Eazy/Zdj2.png>
+Package pdftex.def Info: Eazy/Zdj2.png  used on input line 276.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj3.png, id=174, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj3.png Graphic file (type png)
+<use Eazy/Zdj3.png>
+Package pdftex.def Info: Eazy/Zdj3.png  used on input line 279.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj4.png, id=175, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj4.png Graphic file (type png)
+<use Eazy/Zdj4.png>
+Package pdftex.def Info: Eazy/Zdj4.png  used on input line 282.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj5.png, id=176, 1257.69875pt x 339.2675pt>
+File: Eazy/Zdj5.png Graphic file (type png)
+<use Eazy/Zdj5.png>
+Package pdftex.def Info: Eazy/Zdj5.png  used on input line 285.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Eazy/Zdj6.png, id=177, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj6.png Graphic file (type png)
+<use Eazy/Zdj6.png>
+Package pdftex.def Info: Eazy/Zdj6.png  used on input line 288.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj7.png, id=178, 1257.69875pt x 339.2675pt>
+File: Eazy/Zdj7.png Graphic file (type png)
+<use Eazy/Zdj7.png>
+Package pdftex.def Info: Eazy/Zdj7.png  used on input line 291.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Eazy/Zdj8.png, id=179, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj8.png Graphic file (type png)
+<use Eazy/Zdj8.png>
+Package pdftex.def Info: Eazy/Zdj8.png  used on input line 294.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj9.png, id=180, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj9.png Graphic file (type png)
+<use Eazy/Zdj9.png>
+Package pdftex.def Info: Eazy/Zdj9.png  used on input line 297.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+
+
+LaTeX Warning: Float too large for page by 17.23688pt on input line 301.
+
+<Eazy/Zdj10.png, id=181, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj10.png Graphic file (type png)
+<use Eazy/Zdj10.png>
+Package pdftex.def Info: Eazy/Zdj10.png  used on input line 305.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj11.png, id=182, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj11.png Graphic file (type png)
+<use Eazy/Zdj11.png>
+Package pdftex.def Info: Eazy/Zdj11.png  used on input line 308.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj12.png, id=183, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj12.png Graphic file (type png)
+<use Eazy/Zdj12.png>
+Package pdftex.def Info: Eazy/Zdj12.png  used on input line 311.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj13.png, id=184, 1257.69875pt x 339.2675pt>
+File: Eazy/Zdj13.png Graphic file (type png)
+<use Eazy/Zdj13.png>
+Package pdftex.def Info: Eazy/Zdj13.png  used on input line 314.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Eazy/Zdj14.png, id=185, 1263.72125pt x 763.85374pt>
+File: Eazy/Zdj14.png Graphic file (type png)
+<use Eazy/Zdj14.png>
+Package pdftex.def Info: Eazy/Zdj14.png  used on input line 317.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Eazy/Zdj15.png, id=186, 1257.69875pt x 339.2675pt>
+File: Eazy/Zdj15.png Graphic file (type png)
+<use Eazy/Zdj15.png>
+Package pdftex.def Info: Eazy/Zdj15.png  used on input line 320.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Eazy/Zdj16.png, id=187, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj16.png Graphic file (type png)
+<use Eazy/Zdj16.png>
+Package pdftex.def Info: Eazy/Zdj16.png  used on input line 323.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj17.png, id=188, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj17.png Graphic file (type png)
+<use Eazy/Zdj17.png>
+Package pdftex.def Info: Eazy/Zdj17.png  used on input line 326.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj18.png, id=189, 1263.72125pt x 442.65375pt>
+File: Eazy/Zdj18.png Graphic file (type png)
+<use Eazy/Zdj18.png>
+Package pdftex.def Info: Eazy/Zdj18.png  used on input line 329.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Eazy/Zdj19.png, id=190, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj19.png Graphic file (type png)
+<use Eazy/Zdj19.png>
+Package pdftex.def Info: Eazy/Zdj19.png  used on input line 332.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+
+LaTeX Warning: Float too large for page by 9.21782pt on input line 336.
+
+<Eazy/Zdj20.png, id=191, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj20.png Graphic file (type png)
+<use Eazy/Zdj20.png>
+Package pdftex.def Info: Eazy/Zdj20.png  used on input line 340.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj21.png, id=192, 1257.69875pt x 335.2525pt>
+File: Eazy/Zdj21.png Graphic file (type png)
+<use Eazy/Zdj21.png>
+Package pdftex.def Info: Eazy/Zdj21.png  used on input line 343.
+(pdftex.def)             Requested size: 224.36041pt x 59.80571pt.
+<Eazy/Zdj22.png, id=193, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj22.png Graphic file (type png)
+<use Eazy/Zdj22.png>
+Package pdftex.def Info: Eazy/Zdj22.png  used on input line 346.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj23.png, id=194, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj23.png Graphic file (type png)
+<use Eazy/Zdj23.png>
+Package pdftex.def Info: Eazy/Zdj23.png  used on input line 349.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj24.png, id=195, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj24.png Graphic file (type png)
+<use Eazy/Zdj24.png>
+Package pdftex.def Info: Eazy/Zdj24.png  used on input line 352.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj25.png, id=196, 1263.72125pt x 763.85374pt>
+File: Eazy/Zdj25.png Graphic file (type png)
+<use Eazy/Zdj25.png>
+Package pdftex.def Info: Eazy/Zdj25.png  used on input line 355.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Eazy/Zdj26.png, id=197, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj26.png Graphic file (type png)
+<use Eazy/Zdj26.png>
+Package pdftex.def Info: Eazy/Zdj26.png  used on input line 358.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj27.png, id=198, 1263.72125pt x 763.85374pt>
+File: Eazy/Zdj27.png Graphic file (type png)
+<use Eazy/Zdj27.png>
+Package pdftex.def Info: Eazy/Zdj27.png  used on input line 361.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Eazy/Zdj28.png, id=199, 1265.72874pt x 1003.75pt>
+File: Eazy/Zdj28.png Graphic file (type png)
+<use Eazy/Zdj28.png>
+Package pdftex.def Info: Eazy/Zdj28.png  used on input line 364.
+(pdftex.def)             Requested size: 224.36041pt x 177.91032pt.
+<Eazy/Zdj29.png, id=200, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj29.png Graphic file (type png)
+<use Eazy/Zdj29.png>
+Package pdftex.def Info: Eazy/Zdj29.png  used on input line 367.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+
+LaTeX Warning: Float too large for page by 51.51694pt on input line 371.
+
+<Eazy/Zdj30.png, id=201, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj30.png Graphic file (type png)
+<use Eazy/Zdj30.png>
+Package pdftex.def Info: Eazy/Zdj30.png  used on input line 375.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj31.png, id=202, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj31.png Graphic file (type png)
+<use Eazy/Zdj31.png>
+Package pdftex.def Info: Eazy/Zdj31.png  used on input line 378.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj32.png, id=203, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj32.png Graphic file (type png)
+<use Eazy/Zdj32.png>
+Package pdftex.def Info: Eazy/Zdj32.png  used on input line 381.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj33.png, id=204, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj33.png Graphic file (type png)
+<use Eazy/Zdj33.png>
+Package pdftex.def Info: Eazy/Zdj33.png  used on input line 384.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj34.png, id=205, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj34.png Graphic file (type png)
+<use Eazy/Zdj34.png>
+Package pdftex.def Info: Eazy/Zdj34.png  used on input line 387.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+<Eazy/Zdj35.png, id=206, 1263.72125pt x 809.0225pt>
+File: Eazy/Zdj35.png Graphic file (type png)
+<use Eazy/Zdj35.png>
+Package pdftex.def Info: Eazy/Zdj35.png  used on input line 390.
+(pdftex.def)             Requested size: 224.36041pt x 143.63026pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.267 
-       [8 <./zdj/step_1.jpg> <./zdj/step_2.jpg> <./zdj/step_3.jpg> <./zdj/step_
-4.jpg> <./zdj/step_5.jpg> <./zdj/step_6.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+l.395 			\clearpage
+                    [8 <./zdj/step_1.jpg> <./zdj/step_2.jpg> <./zdj/step_3.jpg>
+ <./zdj/step_4.jpg> <./zdj/step_5.jpg> <./zdj/step_6.jpg>]pdfTeX warning (ext4)
+: destination with the same identifier (name{page.}) has been already used, dup
+licate ignored
+<to be read again> 
+                   \relax 
+l.395 			\clearpage
+                    [9 <./Eazy/Zdj0.png> <./Eazy/Zdj1.png> <./Eazy/Zdj2.png> <.
+/Eazy/Zdj3.png> <./Eazy/Zdj4.png> <./Eazy/Zdj5.png> <./Eazy/Zdj6.png> <./Eazy/Z
+dj7.png> <./Eazy/Zdj8.png> <./Eazy/Zdj9.png>]pdfTeX warning (ext4): destination
+ with the same identifier (name{page.}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.395 			\clearpage
+                    [10 <./Eazy/Zdj10.png> <./Eazy/Zdj11.png> <./Eazy/Zdj12.png
+> <./Eazy/Zdj13.png> <./Eazy/Zdj14.png> <./Eazy/Zdj15.png> <./Eazy/Zdj16.png> <
+./Eazy/Zdj17.png> <./Eazy/Zdj18.png> <./Eazy/Zdj19.png>]pdfTeX warning (ext4): 
+destination with the same identifier (name{page.}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.395 			\clearpage
+                    [11 <./Eazy/Zdj20.png> <./Eazy/Zdj21.png> <./Eazy/Zdj22.png
+> <./Eazy/Zdj23.png> <./Eazy/Zdj24.png> <./Eazy/Zdj25.png> <./Eazy/Zdj26.png> <
+./Eazy/Zdj27.png> <./Eazy/Zdj28.png> <./Eazy/Zdj29.png>]pdfTeX warning (ext4): 
+destination with the same identifier (name{page.}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.395 			\clearpage
+                    [12 <./Eazy/Zdj30.png> <./Eazy/Zdj31.png> <./Eazy/Zdj32.png
+> <./Eazy/Zdj33.png> <./Eazy/Zdj34.png> <./Eazy/Zdj35.png>]
+<Medium/Zdj0.png, id=266, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj0.png Graphic file (type png)
+<use Medium/Zdj0.png>
+Package pdftex.def Info: Medium/Zdj0.png  used on input line 400.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj1.png, id=267, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj1.png Graphic file (type png)
+<use Medium/Zdj1.png>
+Package pdftex.def Info: Medium/Zdj1.png  used on input line 403.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj2.png, id=268, 1263.72125pt x 442.65375pt>
+File: Medium/Zdj2.png Graphic file (type png)
+<use Medium/Zdj2.png>
+Package pdftex.def Info: Medium/Zdj2.png  used on input line 406.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Medium/Zdj3.png, id=269, 1265.72874pt x 1003.75pt>
+File: Medium/Zdj3.png Graphic file (type png)
+<use Medium/Zdj3.png>
+Package pdftex.def Info: Medium/Zdj3.png  used on input line 409.
+(pdftex.def)             Requested size: 224.36041pt x 177.91032pt.
+<Medium/Zdj4.png, id=270, 1270.7475pt x 458.71375pt>
+File: Medium/Zdj4.png Graphic file (type png)
+<use Medium/Zdj4.png>
+Package pdftex.def Info: Medium/Zdj4.png  used on input line 412.
+(pdftex.def)             Requested size: 224.36041pt x 80.99004pt.
+<Medium/Zdj5.png, id=271, 1263.72125pt x 633.36626pt>
+File: Medium/Zdj5.png Graphic file (type png)
+<use Medium/Zdj5.png>
+Package pdftex.def Info: Medium/Zdj5.png  used on input line 415.
+(pdftex.def)             Requested size: 224.36041pt x 112.44504pt.
+<Medium/Zdj6.png, id=272, 1263.72125pt x 442.65375pt>
+File: Medium/Zdj6.png Graphic file (type png)
+<use Medium/Zdj6.png>
+Package pdftex.def Info: Medium/Zdj6.png  used on input line 418.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Medium/Zdj7.png, id=273, 1257.69875pt x 339.2675pt>
+File: Medium/Zdj7.png Graphic file (type png)
+<use Medium/Zdj7.png>
+Package pdftex.def Info: Medium/Zdj7.png  used on input line 421.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Medium/Zdj8.png, id=274, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj8.png Graphic file (type png)
+<use Medium/Zdj8.png>
+Package pdftex.def Info: Medium/Zdj8.png  used on input line 424.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+<Medium/Zdj9.png, id=275, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj9.png Graphic file (type png)
+<use Medium/Zdj9.png>
+Package pdftex.def Info: Medium/Zdj9.png  used on input line 427.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj10.png, id=276, 1257.69875pt x 339.2675pt>
+File: Medium/Zdj10.png Graphic file (type png)
+<use Medium/Zdj10.png>
+Package pdftex.def Info: Medium/Zdj10.png  used on input line 435.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Medium/Zdj11.png, id=277, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj11.png Graphic file (type png)
+<use Medium/Zdj11.png>
+Package pdftex.def Info: Medium/Zdj11.png  used on input line 438.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj12.png, id=278, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj12.png Graphic file (type png)
+<use Medium/Zdj12.png>
+Package pdftex.def Info: Medium/Zdj12.png  used on input line 441.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+<Medium/Zdj13.png, id=279, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj13.png Graphic file (type png)
+<use Medium/Zdj13.png>
+Package pdftex.def Info: Medium/Zdj13.png  used on input line 444.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+<Medium/Zdj14.png, id=280, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj14.png Graphic file (type png)
+<use Medium/Zdj14.png>
+Package pdftex.def Info: Medium/Zdj14.png  used on input line 447.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+<Medium/Zdj15.png, id=281, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj15.png Graphic file (type png)
+<use Medium/Zdj15.png>
+Package pdftex.def Info: Medium/Zdj15.png  used on input line 450.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj16.png, id=282, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj16.png Graphic file (type png)
+<use Medium/Zdj16.png>
+Package pdftex.def Info: Medium/Zdj16.png  used on input line 453.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+<Medium/Zdj17.png, id=283, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj17.png Graphic file (type png)
+<use Medium/Zdj17.png>
+Package pdftex.def Info: Medium/Zdj17.png  used on input line 456.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj18.png, id=284, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj18.png Graphic file (type png)
+<use Medium/Zdj18.png>
+Package pdftex.def Info: Medium/Zdj18.png  used on input line 459.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj19.png, id=285, 1263.72125pt x 745.78625pt>
+File: Medium/Zdj19.png Graphic file (type png)
+<use Medium/Zdj19.png>
+Package pdftex.def Info: Medium/Zdj19.png  used on input line 462.
+(pdftex.def)             Requested size: 224.36041pt x 132.40358pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Medium/Zdj20.png, id=286, 1265.72874pt x 1003.75pt>
+File: Medium/Zdj20.png Graphic file (type png)
+<use Medium/Zdj20.png>
+Package pdftex.def Info: Medium/Zdj20.png  used on input line 471.
+(pdftex.def)             Requested size: 224.36041pt x 177.91032pt.
+<Medium/Zdj21.png, id=287, 1273.75874pt x 552.0625pt>
+File: Medium/Zdj21.png Graphic file (type png)
+<use Medium/Zdj21.png>
+Package pdftex.def Info: Medium/Zdj21.png  used on input line 474.
+(pdftex.def)             Requested size: 224.36041pt x 97.23573pt.
+<Medium/Zdj22.png, id=288, 1257.69875pt x 339.2675pt>
+File: Medium/Zdj22.png Graphic file (type png)
+<use Medium/Zdj22.png>
+Package pdftex.def Info: Medium/Zdj22.png  used on input line 477.
+(pdftex.def)             Requested size: 224.36041pt x 60.52194pt.
+<Medium/Zdj23.png, id=289, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj23.png Graphic file (type png)
+<use Medium/Zdj23.png>
+Package pdftex.def Info: Medium/Zdj23.png  used on input line 480.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj24.png, id=290, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj24.png Graphic file (type png)
+<use Medium/Zdj24.png>
+Package pdftex.def Info: Medium/Zdj24.png  used on input line 483.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj25.png, id=291, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj25.png Graphic file (type png)
+<use Medium/Zdj25.png>
+Package pdftex.def Info: Medium/Zdj25.png  used on input line 486.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Medium/Zdj26.png, id=292, 1263.72125pt x 763.85374pt>
+File: Medium/Zdj26.png Graphic file (type png)
+<use Medium/Zdj26.png>
+Package pdftex.def Info: Medium/Zdj26.png  used on input line 489.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.268 \end{document}
-                     [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+l.495 			\clearpage
+                    [13
+
+ <./Medium/Zdj0.png> <./Medium/Zdj1.png> <./Medium/Zdj2.png> <./Medium/Zdj3.png
+> <./Medium/Zdj4.png> <./Medium/Zdj5.png> <./Medium/Zdj6.png> <./Medium/Zdj7.pn
+g> <./Medium/Zdj8.png> <./Medium/Zdj9.png>]
+
+LaTeX Warning: Text page  contains only floats.
+
+
+Overfull \vbox (2.78801pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.495 			\clearpage
+                    [14 <./Medium/Zdj10.png> <./Medium/Zdj11.png> <./Medium/Zdj
+12.png> <./Medium/Zdj13.png> <./Medium/Zdj14.png> <./Medium/Zdj15.png> <./Mediu
+m/Zdj16.png> <./Medium/Zdj17.png> <./Medium/Zdj18.png> <./Medium/Zdj19.png>]pdf
+TeX warning (ext4): destination with the same identifier (name{page.}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.495 			\clearpage
+                    [15 <./Medium/Zdj20.png> <./Medium/Zdj21.png> <./Medium/Zdj
+22.png> <./Medium/Zdj23.png> <./Medium/Zdj24.png> <./Medium/Zdj25.png> <./Mediu
+m/Zdj26.png>]
+<Hard/Zdj0.png, id=335, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj0.png Graphic file (type png)
+<use Hard/Zdj0.png>
+Package pdftex.def Info: Hard/Zdj0.png  used on input line 499.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj1.png, id=336, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj1.png Graphic file (type png)
+<use Hard/Zdj1.png>
+Package pdftex.def Info: Hard/Zdj1.png  used on input line 502.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj2.png, id=337, 1263.72125pt x 684.5575pt>
+File: Hard/Zdj2.png Graphic file (type png)
+<use Hard/Zdj2.png>
+Package pdftex.def Info: Hard/Zdj2.png  used on input line 505.
+(pdftex.def)             Requested size: 224.36041pt x 121.5333pt.
+<Hard/Zdj3.png, id=338, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj3.png Graphic file (type png)
+<use Hard/Zdj3.png>
+Package pdftex.def Info: Hard/Zdj3.png  used on input line 508.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj4.png, id=339, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj4.png Graphic file (type png)
+<use Hard/Zdj4.png>
+Package pdftex.def Info: Hard/Zdj4.png  used on input line 511.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj5.png, id=340, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj5.png Graphic file (type png)
+<use Hard/Zdj5.png>
+Package pdftex.def Info: Hard/Zdj5.png  used on input line 514.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj6.png, id=341, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj6.png Graphic file (type png)
+<use Hard/Zdj6.png>
+Package pdftex.def Info: Hard/Zdj6.png  used on input line 517.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj7.png, id=342, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj7.png Graphic file (type png)
+<use Hard/Zdj7.png>
+Package pdftex.def Info: Hard/Zdj7.png  used on input line 520.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj8.png, id=343, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj8.png Graphic file (type png)
+<use Hard/Zdj8.png>
+Package pdftex.def Info: Hard/Zdj8.png  used on input line 523.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj9.png, id=344, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj9.png Graphic file (type png)
+<use Hard/Zdj9.png>
+Package pdftex.def Info: Hard/Zdj9.png  used on input line 526.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--529
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--529
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--529
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--529
+[] []
+ []
+
+<Hard/Zdj10.png, id=345, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj10.png Graphic file (type png)
+<use Hard/Zdj10.png>
+Package pdftex.def Info: Hard/Zdj10.png  used on input line 534.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj11.png, id=346, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj11.png Graphic file (type png)
+<use Hard/Zdj11.png>
+Package pdftex.def Info: Hard/Zdj11.png  used on input line 537.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj12.png, id=347, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj12.png Graphic file (type png)
+<use Hard/Zdj12.png>
+Package pdftex.def Info: Hard/Zdj12.png  used on input line 540.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj13.png, id=348, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj13.png Graphic file (type png)
+<use Hard/Zdj13.png>
+Package pdftex.def Info: Hard/Zdj13.png  used on input line 543.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj14.png, id=349, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj14.png Graphic file (type png)
+<use Hard/Zdj14.png>
+Package pdftex.def Info: Hard/Zdj14.png  used on input line 546.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj15.png, id=350, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj15.png Graphic file (type png)
+<use Hard/Zdj15.png>
+Package pdftex.def Info: Hard/Zdj15.png  used on input line 549.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj16.png, id=351, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj16.png Graphic file (type png)
+<use Hard/Zdj16.png>
+Package pdftex.def Info: Hard/Zdj16.png  used on input line 552.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj17.png, id=352, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj17.png Graphic file (type png)
+<use Hard/Zdj17.png>
+Package pdftex.def Info: Hard/Zdj17.png  used on input line 555.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj18.png, id=353, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj18.png Graphic file (type png)
+<use Hard/Zdj18.png>
+Package pdftex.def Info: Hard/Zdj18.png  used on input line 558.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj19.png, id=354, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj19.png Graphic file (type png)
+<use Hard/Zdj19.png>
+Package pdftex.def Info: Hard/Zdj19.png  used on input line 561.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--564
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--564
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--564
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--564
+[] []
+ []
+
+<Hard/Zdj20.png, id=355, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj20.png Graphic file (type png)
+<use Hard/Zdj20.png>
+Package pdftex.def Info: Hard/Zdj20.png  used on input line 569.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj21.png, id=356, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj21.png Graphic file (type png)
+<use Hard/Zdj21.png>
+Package pdftex.def Info: Hard/Zdj21.png  used on input line 572.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj22.png, id=357, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj22.png Graphic file (type png)
+<use Hard/Zdj22.png>
+Package pdftex.def Info: Hard/Zdj22.png  used on input line 575.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj23.png, id=358, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj23.png Graphic file (type png)
+<use Hard/Zdj23.png>
+Package pdftex.def Info: Hard/Zdj23.png  used on input line 578.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj24.png, id=359, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj24.png Graphic file (type png)
+<use Hard/Zdj24.png>
+Package pdftex.def Info: Hard/Zdj24.png  used on input line 581.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj25.png, id=360, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj25.png Graphic file (type png)
+<use Hard/Zdj25.png>
+Package pdftex.def Info: Hard/Zdj25.png  used on input line 584.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj26.png, id=361, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj26.png Graphic file (type png)
+<use Hard/Zdj26.png>
+Package pdftex.def Info: Hard/Zdj26.png  used on input line 587.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj27.png, id=362, 1263.72125pt x 484.81125pt>
+File: Hard/Zdj27.png Graphic file (type png)
+<use Hard/Zdj27.png>
+Package pdftex.def Info: Hard/Zdj27.png  used on input line 590.
+(pdftex.def)             Requested size: 224.36041pt x 86.07124pt.
+<Hard/Zdj28.png, id=363, 1263.72125pt x 721.69624pt>
+File: Hard/Zdj28.png Graphic file (type png)
+<use Hard/Zdj28.png>
+Package pdftex.def Info: Hard/Zdj28.png  used on input line 593.
+(pdftex.def)             Requested size: 224.36041pt x 128.12675pt.
+<Hard/Zdj29.png, id=364, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj29.png Graphic file (type png)
+<use Hard/Zdj29.png>
+Package pdftex.def Info: Hard/Zdj29.png  used on input line 596.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--599
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--599
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--599
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--599
+[] []
+ []
+
+<Hard/Zdj30.png, id=365, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj30.png Graphic file (type png)
+<use Hard/Zdj30.png>
+Package pdftex.def Info: Hard/Zdj30.png  used on input line 604.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj31.png, id=366, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj31.png Graphic file (type png)
+<use Hard/Zdj31.png>
+Package pdftex.def Info: Hard/Zdj31.png  used on input line 607.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj32.png, id=367, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj32.png Graphic file (type png)
+<use Hard/Zdj32.png>
+Package pdftex.def Info: Hard/Zdj32.png  used on input line 610.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj33.png, id=368, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj33.png Graphic file (type png)
+<use Hard/Zdj33.png>
+Package pdftex.def Info: Hard/Zdj33.png  used on input line 613.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj34.png, id=369, 1263.72125pt x 442.65375pt>
+File: Hard/Zdj34.png Graphic file (type png)
+<use Hard/Zdj34.png>
+Package pdftex.def Info: Hard/Zdj34.png  used on input line 616.
+(pdftex.def)             Requested size: 224.36041pt x 78.58678pt.
+<Hard/Zdj35.png, id=370, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj35.png Graphic file (type png)
+<use Hard/Zdj35.png>
+Package pdftex.def Info: Hard/Zdj35.png  used on input line 619.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+<Hard/Zdj36.png, id=371, 1263.72125pt x 763.85374pt>
+File: Hard/Zdj36.png Graphic file (type png)
+<use Hard/Zdj36.png>
+Package pdftex.def Info: Hard/Zdj36.png  used on input line 622.
+(pdftex.def)             Requested size: 224.36041pt x 135.6112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--625
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--625
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--625
+[] []
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.628 	\clearpage
+                  [16
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.628 	\clearpage
+                  [17 <./Hard/Zdj0.png> <./Hard/Zdj1.png> <./Hard/Zdj2.png> <./
+Hard/Zdj3.png> <./Hard/Zdj4.png> <./Hard/Zdj5.png> <./Hard/Zdj6.png> <./Hard/Zd
+j7.png> <./Hard/Zdj8.png> <./Hard/Zdj9.png>]pdfTeX warning (ext4): destination 
+with the same identifier (name{page.}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.628 	\clearpage
+                  [18 <./Hard/Zdj10.png> <./Hard/Zdj11.png> <./Hard/Zdj12.png> 
+<./Hard/Zdj13.png> <./Hard/Zdj14.png> <./Hard/Zdj15.png> <./Hard/Zdj16.png> <./
+Hard/Zdj17.png> <./Hard/Zdj18.png> <./Hard/Zdj19.png>]pdfTeX warning (ext4): de
+stination with the same identifier (name{page.}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.628 	\clearpage
+                  [19 <./Hard/Zdj20.png> <./Hard/Zdj21.png> <./Hard/Zdj22.png> 
+<./Hard/Zdj23.png> <./Hard/Zdj24.png> <./Hard/Zdj25.png> <./Hard/Zdj26.png> <./
+Hard/Zdj27.png> <./Hard/Zdj28.png> <./Hard/Zdj29.png>]pdfTeX warning (ext4): de
+stination with the same identifier (name{page.}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.628 	\clearpage
+                  [20 <./Hard/Zdj30.png> <./Hard/Zdj31.png> <./Hard/Zdj32.png> 
+<./Hard/Zdj33.png> <./Hard/Zdj34.png> <./Hard/Zdj35.png> <./Hard/Zdj36.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 630--634
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.635 \end{document}
+                     [21
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
  (./Sprawko_origins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package rerunfilecheck Info: File `Sprawko_origins.out' has not changed.
+(rerunfilecheck)             Checksum: 9EF7B3A08CF00FBBB83E5AC0E0381247;247.
 
-
-Package rerunfilecheck Warning: File `Sprawko_origins.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Sprawko_origins.out':
-(rerunfilecheck)             Before: 79FD92345404B4FBF4BF54910BAC759C;237
-(rerunfilecheck)             After:  9EF7B3A08CF00FBBB83E5AC0E0381247;247.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
  ) 
 Here is how much of TeX's memory you used:
- 7755 strings out of 492639
- 117717 string characters out of 6129311
- 221182 words of memory out of 5000000
- 11476 multiletter control sequences out of 15000+600000
+ 8467 strings out of 494923
+ 127162 string characters out of 6180742
+ 214008 words of memory out of 5000000
+ 11548 multiletter control sequences out of 15000+600000
  44557 words of font info for 41 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,8n,40p,1114b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/
-lmr17.pfb>
-Output written on Sprawko_origins.pdf (9 pages, 3962174 bytes).
+ 14 hyphenation exceptions out of 8191
+ 42i,9n,40p,1152b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb>
+Output written on Sprawko_origins.pdf (21 pages, 45710389 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 468 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 736 words of extra memory for PDF output out of 10000 (max. 10000000)
 
