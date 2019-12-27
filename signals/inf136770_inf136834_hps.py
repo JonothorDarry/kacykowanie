@@ -2,9 +2,29 @@
 
 import sys
 import numpy as np
-import scipy.io.wavfile
+import wave
 from scipy.signal import decimate, correlate
 import os
+
+def read_wav_file(filepath):
+    wave_read = wave.open(filepath, mode = 'rb')
+    length = wave_read.getnframes()
+    sample_rate = wave_read.getframerate()
+    
+    if wave_read.getsampwidth() == 1:
+        type = np.uint8
+    elif wave_read.getsampwidth() == 2:
+        type = np.int16
+    elif wave_read.getsampwidth() == 4:
+        type = np.int32
+    else:
+        type = np.int16
+        
+    data = np.frombuffer(wave_read.readframes(length), count = wave_read.getnchannels() * length, dtype = type)
+    if wave_read.getnchannels() >= 2:
+        data = np.reshape(data, (length, wave_read.getnchannels()))
+    wave_read.close()
+    return sample_rate, data
 
 def fft(signal):
     n = len(signal)
@@ -34,7 +54,7 @@ def hps(signal, sample_rate):
 def classify_file(filepath):
     method = hps
     try:
-        sample_rate, data = scipy.io.wavfile.read(filepath)
+        sample_rate, data = read_wav_file(filepath)
     except:
         return 'M'
     
